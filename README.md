@@ -6,7 +6,7 @@
 - `mkdir Qingdao`
 - `cd Qingdao`
 2. openApi Url 주소 clone 한 후 생성된 OnlineJudgeDeploy 폴더로 이동.
-- `git clone https://github.com/QingdaoU/OnlineJudgeDeploy`
+- `git clone https://github.com/QingdaoU/OnlineJudgeDeploy.git`
 - `cd OnlineJudgeDeploy`
 3. docker-compose를 사용하기 
 - `docker-compose up -d`
