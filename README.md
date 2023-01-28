@@ -15,4 +15,5 @@
 - `docker-machine ls`
 5. 현재 실행 중인 전체 컨테이너 리스트 출력
 - `docker ps -a`
-
+6. 현재 실행 중인 도커 의 ip 확인 
+- `docker-machine ip`
