@@ -23,3 +23,17 @@
 - `docker-machine ip`
 8. 현재 실행 중인 전체 컨테이너 리스트 출력
 - `docker ps -a`
+
+
+만약 PC를 재부팅한 경우
+1. OnlineJudgeDeploy 폴더로 이동
+- `cd Qingdao/OnlineJudgeDeploy`
+2. docker-compose 실행
+- `docker-compose up -d`
+3. VBoxManage natnetwork 재실행
+- `VBoxManage natnetwork stop --netname '실행 중인 NatNetwork 이름'`
+- `VBoxManage natnetwork start --netname '실행 시킬 NatNetwork 이름'`
+4. default 활성화 시켜주기 
+- `eval $(docker-machine env default)`
+5. docker-machine ip 확인하기
+- `docker-machine ip`
